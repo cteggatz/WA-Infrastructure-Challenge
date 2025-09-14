@@ -4,10 +4,11 @@
 set -euo pipefail
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-python3 "$DIR/publisher_beacons.py" &
+# i had to switch python3 to python
+python "$DIR/publisher_beacons.py" &
 P1=$!
 
-python3 "$DIR/publisher_ticks.py" &
+python "$DIR/publisher_ticks.py" &
 P2=$!
 
 wait "$P1" "$P2"
