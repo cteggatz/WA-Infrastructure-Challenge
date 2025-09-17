@@ -1,3 +1,24 @@
+# READ THIS PLEASE!!!!!
+Hello!
+
+To the people that are checking this out... I had to change small thing in your shell scripts in order to get them to work with my machine...
+
+here are all the changes I made and you can confirm
+
+* launch.sh : changed python3 to python (line 8, 11)
+* test_case_1 : changed python3 to python (line 34)
+* test_case_2 : changed python3 to python (line 32)
+* test_case_3 : changed python3 to python (line )
+* test_case_4 : changed python3 to python (line 42)
+* verify_and_run : changed python3 to python (line 57)
+
+Ill be honest... I fucked up my path somehow while setting up my school PC and python3 just isn't recognized. Im lazy so I just changed the scripts. This is why I use venv or conda :/ Anyways sorry ¯_(ツ)_/¯....
+
+Also python ain't my native language... dont judge to hard
+
+
+
+
 # Wisconsin Autonomous Infrastructure Subteam Coding Challenge ROS2 Simulation 
 
 This coding challenge is designed for us to evaluate what you can bring to the table and an opportunity for you to get some hands on experience with the tools we use on the controls and infrastructure sub-teams. We use ROS2 Humble as our middleware for our modular system to communicate with each other. A good understanding of ROS is vital for our success. While we understand that this might be your first time hearing of ROS, this challenge also aims for us to see how you can learn on the fly, which is an important aspect of being part of this team. The challenge will simulate ROS2 publisher and subscribers system using UDP messages in Python to create a V2X like problem, something we will be doing this year. Your goal is to explore and learn the ROS2 concept and be able to understand your work. This coding challenge is not required to pass the application. 
